@@ -1,2 +1,2 @@
-# constructor
+# Constructor
 Конструктор HTML-страниц
