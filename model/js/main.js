@@ -1,3 +1,5 @@
+let constructor = new Constructor();
+
 let inputHTMLFile = document.querySelector('#send-html-file-button');
 
 inputHTMLFile.addEventListener('input', (event) =>
@@ -7,9 +9,5 @@ inputHTMLFile.addEventListener('input', (event) =>
         throw new Error('Загружать можно только HTML-файлы');
     }
 
-    readHTMLFile(event.target.files[0])
-    .then((dom) =>
-    {
-        // console.log(dom);
-    });
+    constructor.htmlFile = event.target.files[0];
 });
