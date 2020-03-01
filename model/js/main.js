@@ -1,6 +1,8 @@
 let constructor = new Constructor();
 
 let inputHTMLFile = document.querySelector('#send-html-file-button');
+let leftMenu = document.querySelector('#left-menu');
+let header = document.querySelector('header');
 
 inputHTMLFile.addEventListener('input', (event) =>
 {

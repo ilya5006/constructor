@@ -1,9 +1,9 @@
-document.querySelector('#left-menu').addEventListener('mouseover', (event) =>
+leftMenu.addEventListener('mouseover', () =>
 {
-    event.target.style.marginLeft = '0px';
+    leftMenu.style.marginLeft = '0px';
 });
 
-document.querySelector('#left-menu').addEventListener('mouseout', (event) =>
+leftMenu.addEventListener('mouseout', () =>
 {
-    event.target.style.marginLeft = '-120px';
+    leftMenu.style.marginLeft = '-145px';
 });
