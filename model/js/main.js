@@ -9,5 +9,5 @@ inputHTMLFile.addEventListener('input', (event) =>
         throw new Error('Загружать можно только HTML-файлы');
     }
 
-    constructor.htmlFile = event.target.files[0];
+    constructor.initHTMLFile(event.target.files[0]);
 });

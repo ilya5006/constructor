@@ -1,9 +1,13 @@
 class Constructor
 {
-    set htmlFile(file)
+    /**
+     * Initializes html file and push content into constructor
+     * @param {file} htmlFile - Html file
+     */
+    initHTMLFile(htmlFile)
     {
         let reader = new FileReader();
-        reader.readAsText(file);
+        reader.readAsText(htmlFile);
     
         reader.addEventListener('load', () =>
         {
