@@ -39,10 +39,10 @@ class Constructor
 
     createHTMLFile()
     {
-        let a = document.createElement('a');
-        a.setAttribute('href', 'data:text/html;charset=utf-8,' + encodeURIComponent(this.constructorDOM.body.innerHTML));
+        // let a = document.createElement('a');
+        // a.setAttribute('href', 'data:text/html;charset=utf-8,' + encodeURIComponent(this.constructorDOM.body.innerHTML));
 
-        a.click();
+        // a.click();
     }
 
     createElement()
