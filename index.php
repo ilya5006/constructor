@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./view/css/left-menu.css">
     <link rel="stylesheet" href="./view/css/header.css">
 
-
     <script src="./model/js/classes/Constructor.js" defer></script>
+
     <script src="./model/js/main.js" defer></script>
     <script src="./model/js/headerAnimation.js" defer></script>
     <script src="./model/js/leftMenuAnimation.js" defer></script>

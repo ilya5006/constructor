@@ -3,6 +3,7 @@ let constructor = new Constructor();
 let inputHTMLFile = document.querySelector('#send-html-file-button');
 let leftMenu = document.querySelector('#left-menu');
 let header = document.querySelector('header');
+let createFile = document.querySelector('#create-page');
 
 inputHTMLFile.addEventListener('input', (event) =>
 {
@@ -11,5 +12,10 @@ inputHTMLFile.addEventListener('input', (event) =>
         throw new Error('Загружать можно только HTML-файлы');
     }
 
-    constructor.initHTMLFile(event.target.files[0]);
+    constructor.initLoadedHTMLFile(event.target.files[0]);
+});
+
+createFile.addEventListener('click', () =>
+{
+    constructor.initNewHTMLFile();
 });
